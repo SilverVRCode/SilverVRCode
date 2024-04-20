@@ -3,6 +3,7 @@
 <!--
 **SilverVRCode/SilverVRCode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
@@ -14,3 +15,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+🔭 I'm Silver, a new programmer in a world of technology.
+⚡ I'm working on a new project - you will see this soon!
+💬 Have any questions? Create an issue on this repo! (SilverVRCode/SilverVRCode)

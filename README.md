@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-🔭 I'm Silver, a new programmer in a world of technology.
-⚡ I'm working on a new project - you will see this soon!
-💬 Have any questions? Create an issue on this repo! (SilverVRCode/SilverVRCode)
+- 🔭 I'm Silver, a new programmer in a world of technology.
+  
+- ⚡ Me and some friends have created a game called Lone Wolf! Go check it out at https://silvervrcode.github.io/LoneWolf/
+  
+- 💬 Have any questions? Create an issue on this repo! (SilverVRCode/SilverVRCode)

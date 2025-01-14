@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 - 🔭 I'm Silver, a developer who *really* likes hackathons for some reason. I also love food.
   
 - ⚡ Recently, me and my team for DeltaHacks XI created RemoteSwitch: a program allowing for console remote control.
--  Check it out! (SilverVRCode/RemoteSwitch) It is in current development and will eventually support more devices and protocols.
+  Check it out! (SilverVRCode/RemoteSwitch) It is in current development and will eventually support more devices and protocols.
   
 - 💬 Have any questions? Create an issue on this repo! (SilverVRCode/SilverVRCode)

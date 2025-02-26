@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <title>Silver's doohickey area</title>
+</head>
+<body>
+    <div id="background" class="w-full">
+        <div id="navbar" class="bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 backdrop-saturate-100 backdrop-contrast-100 absolute top-0 w-full flex justify-between items-center p-4 z-2">
+            <div id="navbar-left" class="">
+                <a href="index.html" class="text-white mr-2 ml-2">Home</a>
+                <a href="about.html" class="text-white mr-2 ml-2">About</a>
+                <a href="projects.html" class="text-white ml-2">Projects</a>
+            </div>
+            <div id="navbar-right" class="text-white">
+                <p>test</p>
+            </div>
+        </div>
+        <div id="hero" class="flex flex-col items-center justify-center h-screen">
+            <h1 class="text-6xl text-white">Silver's doohickey area</h1>
+            <p class="text-white">Welcome to the ring of chaos</p>
+        </div>
+        <div id="about" class="">
+            
+        </div>
+    </div>
+    
+    <script>
+        VANTA.GLOBE({
+          el: "#background",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0xf5a9b7,
+          backgroundColor: 0x5050a2
+        })
+    </script>
+</body>
+</html>

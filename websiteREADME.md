@@ -2,4 +2,4 @@
 
 This website is mostly a summary of what I do. I also use it to test my web development skills once in a while.
 
-Have any suggestions (cleaning up code lol) then please don't hesitate to mention this to me. Means a lot.
+If you have any suggestions (cleaning up code lol), please don't hesitate to mention them to me. Means a lot.

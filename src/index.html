@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="output.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
     <title>Silver's doohickey area</title>
 </head>
+
 <body>
     <div id="background" class="w-full">
-        <div id="navbar" class="bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 backdrop-saturate-100 backdrop-contrast-100 absolute top-0 w-full flex justify-between items-center p-4 z-2">
+        <div id="navbar"
+            class="bg-clip-padding backdrop-filter backdrop-blur bg-opacity-20 backdrop-saturate-100 backdrop-contrast-100 absolute top-0 w-full flex justify-between items-center p-4 z-2">
             <div id="navbar-left" class="">
-                <a href="index.html" class="text-white mr-2 ml-2">Home</a>
-                <a href="about.html" class="text-white mr-2 ml-2">About</a>
-                <a href="projects.html" class="text-white ml-2">Projects</a>
+                <a href="index.html" class="text-white mr-2 ml-2 font-dm-sans">Home</a>
+                <a href="about.html" class="text-white mr-2 ml-2 font-dm-sans">About</a>
+                <a href="projects.html" class="text-white mr-2 ml-2 font-dm-sans">Projects</a>
             </div>
-            <div id="navbar-right" class="text-white">
-                <p>test</p>
+            <div id="navbar-right" class="flex items-center">
+                <a href="https://discord.gg/3u3KdXTmng" class="mx-2">
+                    <img src="icons/discord.svg" alt="Discord" class="h-6 w-6 filter invert">
+                </a>
+                <a href="https://github.com/SilverVRCode" class="mx-2">
+                    <img src="icons/github.svg" alt="GitHub" class="h-6 w-6">
+                </a>
+                <a href="https://www.youtube.com/@SilverVRCode" class="mx-2">
+                    <img src="icons/youtube.svg" alt="YouTube" class="h-6 w-6 filter invert">
+                </a>
             </div>
         </div>
-        <div id="hero" class="flex flex-col items-center justify-center h-screen">
+        <div id="hero" class="flex flex-col justify-center h-screen w-3/4 h-3/4 ml-8 pl-32 font-dm-sans">
             <h1 class="text-6xl text-white">Silver's doohickey area</h1>
-            <p class="text-white">Welcome to the ring of chaos</p>
+            <p class="text-white">Hello :D! I put my projects and facts about me here. The site is currently in
+                development.</p>
         </div>
-        <div id="about" class="">
-            
+        <div id="about" class="flex flex-row justify-between items-center h-screen w-3/4 mx-auto font-dm-sans">
+            <div id="about-left" class="w-1/2">
+                <h1 class="text-4xl text-white">About me</h1>
+                <p class="text-white">I'm a 14 year old frontend developer who likes 3D printing, design, and food. Oh,
+                    also hackathons are cool.
+                </p>
+                <p class="text-white">
+                    I'm currently learning React and Tailwind CSS. I enjoy making programs on a time crunch, it helps me work on keeping my skills sharp. I also have a cat
+                    named Chu. 🐈
+                </p>
+            </div>
+            <div id="about-right" class="w-1/2 flex justify-end">
+                <img src="images/cat.jpg" alt="Chu the cat 🐈" class="h-[500px] w-auto rounded-3xl">
+            </div>
         </div>
     </div>
-    
+
     <script>
         VANTA.GLOBE({
-          el: "#background",
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0xf5a9b7,
-          backgroundColor: 0x5050a2
+            el: "#background",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xf5a9b7,
+            backgroundColor: 0x5050a2
         })
     </script>
 </body>
+
 </html>
